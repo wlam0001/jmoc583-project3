@@ -1,0 +1,31 @@
+[{
+  "class": "Assasin",
+  "info": "Assassins are highly mobile champions specializing in single-target burst damage.",
+  "image": "/img/assasin.png",
+  "champions": 32
+}, {
+  "class": "Fighter",
+  "info": "Fighters are a diverse group of short-ranged combatants who excel at both dealing and surviving damage.",
+  "image": "/img/fighter.png",
+  "champions": 61
+}, {
+  "class": "Mage",
+  "info": "Mages are champions who typically possess great reach, ability-based area of effect damage and crowd control, and who use all of these strengths in tandem with each other to trap and destroy enemies from a distance.",
+  "image": "/img/mage.png",
+  "champions": 51
+}, {
+  "class": "Marksman",
+  "info": "Marksmen are ranged champions whose power almost exclusively revolves around their basic attacks.",
+  "image": "/img/marksman.png",
+  "champions": 24
+}, {
+  "class": "Support",
+  "info": "Supports are the most selfless champions in the game, forgoing personal power to assist their allies with potent utility and keep enemies at bay with crowd control.",
+  "image": "/img/support.png",
+  "champions": 25
+}, {
+  "class": "Tank",
+  "info": "Tanks are tough melee champions who sacrifice damage in exchange for powerful crowd control.",
+  "image": "/img/tank.png",
+  "champions": 36
+}]

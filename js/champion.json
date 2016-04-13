@@ -1,0 +1,1764 @@
+[{
+    "name": "Aatrox",
+    "info": {
+      "attack": 8,
+      "defense": 4,
+      "magic": 3,
+      "difficulty": 4
+    },
+    "image": "/img/Aatrox.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  }, {
+    "name": "Ahri",
+    "info": {
+      "attack": 3,
+      "defense": 4,
+      "magic": 8,
+      "difficulty": 5
+    },
+    "image": "/img/Ahri.png",
+    "tags": [
+      "Mage",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Akali",
+    "info": {
+      "attack": 5,
+      "defense": 3,
+      "magic": 8,
+      "difficulty": 7
+    },
+    "image": "/img/Akali.png",
+    "tags": [
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Alistar",
+    "info": {
+      "attack": 6,
+      "defense": 9,
+      "magic": 5,
+      "difficulty": 7
+    },
+    "image": "/img/Alistar.png",
+    "tags": [
+      "Tank",
+      "Support"
+    ]
+  },
+  {
+    "name": "Amumu",
+    "info": {
+      "attack": 2,
+      "defense": 6,
+      "magic": 8,
+      "difficulty": 3
+    },
+    "image": "/img/Amumu.png",
+    "tags": [
+      "Tank",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Anivia",
+    "info": {
+      "attack": 1,
+      "defense": 4,
+      "magic": 10,
+      "difficulty": 10
+    },
+    "image": "/img/Anivia.png",
+    "tags": [
+      "Mage",
+      "Support"
+    ]
+  },
+  {
+    "name": "Annie",
+    "info": {
+      "attack": 2,
+      "defense": 3,
+      "magic": 10,
+      "difficulty": 6
+    },
+    "image": "/img/Annie.png",
+    "tags": [
+      "Mage"
+    ]
+  },
+  {
+    "name": "Ashe",
+    "info": {
+      "attack": 7,
+      "defense": 3,
+      "magic": 2,
+      "difficulty": 4
+    },
+    "image": "/img/Ashe.png",
+    "tags": [
+      "Marksman",
+      "Support"
+    ]
+  },
+  {
+    "name": "Aurelion Sol",
+    "info": {
+      "attack": 2,
+      "defense": 3,
+      "magic": 8,
+      "difficulty": 7
+    },
+    "image": "/img/AurelionSol.png",
+    "tags": [
+      "Mage",
+      "Figher"
+    ]
+  },
+  {
+    "name": "Azir",
+    "info": {
+      "attack": 6,
+      "defense": 3,
+      "magic": 8,
+      "difficulty": 9
+    },
+    "image": "/img/Azir.png",
+    "tags": [
+      "Mage",
+      "Marksman"
+    ]
+  },
+  {
+    "name": "Bard",
+    "info": {
+      "attack": 4,
+      "defense": 4,
+      "magic": 5,
+      "difficulty": 9
+    },
+    "image": "/img/Bard.png",
+    "tags": [
+      "Support",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Blitzcrank",
+    "info": {
+      "attack": 4,
+      "defense": 8,
+      "magic": 5,
+      "difficulty": 4
+    },
+    "image": "/img/Blitzcrank.png",
+    "tags": [
+      "Tank",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Brand",
+    "info": {
+      "attack": 2,
+      "defense": 2,
+      "magic": 9,
+      "difficulty": 4
+    },
+    "image": "/img/Brand.png",
+    "tags": [
+      "Mage"
+    ]
+  },
+  {
+    "name": "Braum",
+    "info": {
+      "attack": 3,
+      "defense": 9,
+      "magic": 4,
+      "difficulty": 3
+    },
+    "image": "/img/Braum.png",
+    "tags": [
+      "Support",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Caitlyn",
+    "info": {
+      "attack": 8,
+      "defense": 2,
+      "magic": 2,
+      "difficulty": 6
+    },
+    "image": "/img/Caitlyn.png",
+    "tags": [
+      "Marksman"
+    ]
+  },
+  {
+    "name": "Cassiopeia",
+    "info": {
+      "attack": 2,
+      "defense": 3,
+      "magic": 9,
+      "difficulty": 10
+    },
+    "image": "/img/Cassiopeia.png",
+    "tags": [
+      "Mage"
+    ]
+  },
+  {
+    "name": "Cho'Gath",
+    "info": {
+      "attack": 3,
+      "defense": 7,
+      "magic": 7,
+      "difficulty": 5
+    },
+    "image": "/img/Chogath.png",
+    "tags": [
+      "Tank",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Corki",
+    "info": {
+      "attack": 8,
+      "defense": 3,
+      "magic": 6,
+      "difficulty": 6
+    },
+    "image": "/img/Corki.png",
+    "tags": [
+      "Marksman"
+    ]
+  },
+  {
+    "name": "Darius",
+    "info": {
+      "attack": 9,
+      "defense": 5,
+      "magic": 1,
+      "difficulty": 2
+    },
+    "image": "/img/Darius.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Diana",
+    "info": {
+      "attack": 7,
+      "defense": 6,
+      "magic": 8,
+      "difficulty": 4
+    },
+    "image": "/img/Diana.png",
+    "tags": [
+      "Fighter",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Draven",
+    "info": {
+      "attack": 9,
+      "defense": 3,
+      "magic": 1,
+      "difficulty": 8
+    },
+    "image": "/img/Draven.png",
+    "tags": [
+      "Marksman"
+    ]
+  },
+  {
+    "name": "Dr. Mundo",
+    "info": {
+      "attack": 5,
+      "defense": 7,
+      "magic": 6,
+      "difficulty": 5
+    },
+    "image": "/img/DrMundo.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Ekko",
+    "info": {
+      "attack": 5,
+      "defense": 3,
+      "magic": 7,
+      "difficulty": 8
+    },
+    "image": "/img/Ekko.png",
+    "tags": [
+      "Assassin",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Elise",
+    "info": {
+      "attack": 6,
+      "defense": 5,
+      "magic": 7,
+      "difficulty": 9
+    },
+    "image": "/img/Elise.png",
+    "tags": [
+      "Mage",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Evelynn",
+    "info": {
+      "attack": 4,
+      "defense": 2,
+      "magic": 7,
+      "difficulty": 10
+    },
+    "image": "/img/Evelynn.png",
+    "tags": [
+      "Assassin",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Ezreal",
+    "info": {
+      "attack": 7,
+      "defense": 2,
+      "magic": 6,
+      "difficulty": 7
+    },
+    "image": "/img/Ezreal.png",
+    "tags": [
+      "Marksman",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Fiddlesticks",
+    "info": {
+      "attack": 2,
+      "defense": 3,
+      "magic": 9,
+      "difficulty": 9
+    },
+    "image": "/img/FiddleSticks.png",
+    "tags": [
+      "Mage",
+      "Support"
+    ]
+  },
+  {
+    "name": "Fiora",
+    "info": {
+      "attack": 10,
+      "defense": 4,
+      "magic": 2,
+      "difficulty": 3
+    },
+    "image": "/img/Fiora.png",
+    "tags": [
+      "Fighter",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Fizz",
+    "info": {
+      "attack": 6,
+      "defense": 4,
+      "magic": 7,
+      "difficulty": 6
+    },
+    "image": "/img/Fizz.png",
+    "tags": [
+      "Assassin",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Galio",
+    "info": {
+      "attack": 3,
+      "defense": 7,
+      "magic": 6,
+      "difficulty": 3
+    },
+    "image": "/img/Galio.png",
+    "tags": [
+      "Tank",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Gangplank",
+    "info": {
+      "attack": 7,
+      "defense": 6,
+      "magic": 4,
+      "difficulty": 9
+    },
+    "image": "/img/Gangplank.png",
+    "tags": [
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Garen",
+    "info": {
+      "attack": 7,
+      "defense": 7,
+      "magic": 1,
+      "difficulty": 5
+    },
+    "image": "/img/Garen.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Gnar",
+    "info": {
+      "attack": 6,
+      "defense": 5,
+      "magic": 5,
+      "difficulty": 8
+    },
+    "image": "/img/Gnar.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Gragas",
+    "info": {
+      "attack": 4,
+      "defense": 7,
+      "magic": 6,
+      "difficulty": 5
+    },
+    "image": "/img/Gragas.png",
+    "tags": [
+      "Fighter",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Graves",
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 3
+    },
+    "image": "/img/Graves.png",
+    "tags": [
+      "Marksman"
+    ]
+  },
+  {
+    "name": "Hecarim",
+    "info": {
+      "attack": 8,
+      "defense": 6,
+      "magic": 4,
+      "difficulty": 6
+    },
+    "image": "/img/Hecarim.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Heimerdinger",
+    "info": {
+      "attack": 2,
+      "defense": 6,
+      "magic": 8,
+      "difficulty": 8
+    },
+    "image": "/img/Heimerdinger.png",
+    "tags": [
+      "Mage",
+      "Support"
+    ]
+  },
+  {
+    "name": "Illaoi",
+    "info": {
+      "attack": 8,
+      "defense": 6,
+      "magic": 3,
+      "difficulty": 4
+    },
+    "image": "/img/Illaoi.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Irelia",
+    "info": {
+      "attack": 7,
+      "defense": 4,
+      "magic": 5,
+      "difficulty": 5
+    },
+    "image": "/img/Irelia.png",
+    "tags": [
+      "Fighter",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Janna",
+    "info": {
+      "attack": 3,
+      "defense": 5,
+      "magic": 7,
+      "difficulty": 7
+    },
+    "image": "/img/Janna.png",
+    "tags": [
+      "Support",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Jarvan IV",
+    "info": {
+      "attack": 6,
+      "defense": 8,
+      "magic": 3,
+      "difficulty": 5
+    },
+    "image": "/img/JarvanIV.png",
+    "tags": [
+      "Tank",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Jax",
+    "info": {
+      "attack": 7,
+      "defense": 5,
+      "magic": 7,
+      "difficulty": 5
+    },
+    "image": "/img/Jax.png",
+    "tags": [
+      "Fighter",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Jayce",
+    "info": {
+      "attack": 8,
+      "defense": 4,
+      "magic": 3,
+      "difficulty": 7
+    },
+    "image": "/img/Jayce.png",
+    "tags": [
+      "Fighter",
+      "Marksman"
+    ]
+  },
+  {
+    "name": "Jhin",
+    "info": {
+      "attack": 10,
+      "defense": 2,
+      "magic": 6,
+      "difficulty": 6
+    },
+    "image": "/img/Jhin.png",
+    "tags": [
+      "Marksman",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Jinx",
+    "info": {
+      "attack": 9,
+      "defense": 2,
+      "magic": 4,
+      "difficulty": 6
+    },
+    "image": "/img/Jinx.png",
+    "tags": [
+      "Marksman"
+    ]
+  },
+  {
+    "name": "Kalista",
+    "info": {
+      "attack": 8,
+      "defense": 2,
+      "magic": 4,
+      "difficulty": 7
+    },
+    "image": "/img/Kalista.png",
+    "tags": [
+      "Marksman"
+    ]
+  },
+  {
+    "name": "Karma",
+    "info": {
+      "attack": 1,
+      "defense": 7,
+      "magic": 8,
+      "difficulty": 5
+    },
+    "image": "/img/Karma.png",
+    "tags": [
+      "Mage",
+      "Support"
+    ]
+  },
+  {
+    "name": "Karthus",
+    "info": {
+      "attack": 2,
+      "defense": 2,
+      "magic": 10,
+      "difficulty": 7
+    },
+    "image": "/img/Karthus.png",
+    "tags": [
+      "Mage"
+    ]
+  },
+  {
+    "info": {
+      "attack": 3,
+      "defense": 5,
+      "magic": 8,
+      "difficulty": 8
+    },
+    "image": "/img/Kassadin.png",
+    "tags": [
+      "Assassin",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Katarina",
+    "info": {
+      "attack": 4,
+      "defense": 3,
+      "magic": 9,
+      "difficulty": 8
+    },
+    "image": "/img/Katarina.png",
+    "tags": [
+      "Assassin",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Kayle",
+    "info": {
+      "attack": 6,
+      "defense": 6,
+      "magic": 7,
+      "difficulty": 7
+    },
+    "image": "/img/Kayle.png",
+    "tags": [
+      "Fighter",
+      "Support"
+    ]
+  },
+  {
+    "name": "Kennen",
+    "info": {
+      "attack": 6,
+      "defense": 4,
+      "magic": 7,
+      "difficulty": 4
+    },
+    "image": "/img/Kennen.png",
+    "tags": [
+      "Mage",
+      "Marksman"
+    ]
+  },
+  {
+    "name": "Kha'Zix",
+    "info": {
+      "attack": 9,
+      "defense": 4,
+      "magic": 3,
+      "difficulty": 6
+    },
+    "image": "/img/Khazix.png",
+    "tags": [
+      "Assassin",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Kindred",
+    "info": {
+      "attack": 8,
+      "defense": 2,
+      "magic": 2,
+      "difficulty": 4
+    },
+    "image": "/img/Kindred.png",
+    "tags": [
+      "Marksman"
+    ]
+  },
+  {
+    "name": "Kog'Maw",
+    "info": {
+      "attack": 8,
+      "defense": 2,
+      "magic": 5,
+      "difficulty": 6
+    },
+    "image": "/img/KogMaw.png",
+    "tags": [
+      "Marksman",
+      "Mage"
+    ]
+  },
+  {
+    "name": "LeBlanc",
+    "info": {
+      "attack": 1,
+      "defense": 4,
+      "magic": 10,
+      "difficulty": 9
+    },
+    "image": "/img/Leblanc.png",
+    "tags": [
+      "Assassin",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Lee Sin",
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 6
+    },
+    "image": "/img/LeeSin.png",
+    "tags": [
+      "Fighter",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Leona",
+    "info": {
+      "attack": 4,
+      "defense": 8,
+      "magic": 3,
+      "difficulty": 4
+    },
+    "image": "/img/Leona.png",
+    "tags": [
+      "Tank",
+      "Support"
+    ]
+  },
+  {
+    "name": "Lissandra",
+    "info": {
+      "attack": 2,
+      "defense": 5,
+      "magic": 8,
+      "difficulty": 6
+    },
+    "image": "/img/Lissandra.png",
+    "tags": [
+      "Mage"
+    ]
+  },
+  {
+    "name": "Lucian",
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 6
+    },
+    "image": "/img/Lucian.png",
+    "tags": [
+      "Marksman"
+    ]
+  },
+  {
+    "name": "Lulu",
+    "info": {
+      "attack": 4,
+      "defense": 5,
+      "magic": 7,
+      "difficulty": 5
+    },
+    "image": "/img/Lulu.png",
+    "tags": [
+      "Support",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Lux",
+    "info": {
+      "attack": 2,
+      "defense": 4,
+      "magic": 9,
+      "difficulty": 5
+    },
+    "image": "/img/Lux.png",
+    "tags": [
+      "Mage",
+      "Support"
+    ]
+  },
+  {
+    "name": "Malphite",
+    "info": {
+      "attack": 5,
+      "defense": 9,
+      "magic": 7,
+      "difficulty": 2
+    },
+    "image": "/img/Malphite.png",
+    "tags": [
+      "Tank",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Malzahar",
+    "info": {
+      "attack": 2,
+      "defense": 2,
+      "magic": 9,
+      "difficulty": 6
+    },
+    "image": "/img/Malzahar.png",
+    "tags": [
+      "Mage",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Maokai",
+    "info": {
+      "attack": 3,
+      "defense": 8,
+      "magic": 6,
+      "difficulty": 3
+    },
+    "image": "/img/Maokai.png",
+    "tags": [
+      "Tank",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Master Yi",
+    "info": {
+      "attack": 10,
+      "defense": 4,
+      "magic": 2,
+      "difficulty": 4
+    },
+    "image": "/img/MasterYi.png",
+    "tags": [
+      "Assassin",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Miss Fortune",
+    "info": {
+      "attack": 8,
+      "defense": 2,
+      "magic": 5,
+      "difficulty": 1
+    },
+    "image": "/img/MissFortune.png",
+    "tags": [
+      "Marksman"
+    ]
+  },
+  {
+    "name": "Wukong",
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 2,
+      "difficulty": 3
+    },
+    "image": "/img/MonkeyKing.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Mordekaiser",
+    "info": {
+      "attack": 4,
+      "defense": 6,
+      "magic": 7,
+      "difficulty": 4
+    },
+    "image": "/img/Mordekaiser.png",
+    "tags": [
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Morgana",
+    "info": {
+      "attack": 1,
+      "defense": 6,
+      "magic": 8,
+      "difficulty": 1
+    },
+    "image": "/img/Morgana.png",
+    "tags": [
+      "Mage",
+      "Support"
+    ]
+  },
+  {
+    "name": "Nami",
+    "info": {
+      "attack": 4,
+      "defense": 3,
+      "magic": 7,
+      "difficulty": 5
+    },
+    "image": "/img/Nami.png",
+    "tags": [
+      "Support",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Nasus",
+    "info": {
+      "attack": 7,
+      "defense": 5,
+      "magic": 6,
+      "difficulty": 6
+    },
+    "image": "/img/Nasus.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Nautilus",
+    "info": {
+      "attack": 4,
+      "defense": 6,
+      "magic": 6,
+      "difficulty": 6
+    },
+    "image": "/img/Nautilus.png",
+    "tags": [
+      "Tank",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Nidalee",
+    "info": {
+      "attack": 5,
+      "defense": 4,
+      "magic": 7,
+      "difficulty": 8
+    },
+    "image": "/img/Nidalee.png",
+    "tags": [
+      "Assassin",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Nocturne",
+    "info": {
+      "attack": 9,
+      "defense": 5,
+      "magic": 2,
+      "difficulty": 4
+    },
+    "image": "/img/Nocturne.png",
+    "tags": [
+      "Assassin",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Nunu",
+    "info": {
+      "attack": 4,
+      "defense": 6,
+      "magic": 7,
+      "difficulty": 4
+    },
+    "image": "/img/Nunu.png",
+    "tags": [
+      "Support",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Olaf",
+    "info": {
+      "attack": 4,
+      "defense": 3,
+      "magic": 9,
+      "difficulty": 7
+    },
+    "image": "/img/Orianna.png",
+    "tags": [
+      "Mage",
+      "Support"
+    ]
+  },
+  {
+    "name": "Pantheon",
+    "info": {
+      "attack": 6,
+      "defense": 7,
+      "magic": 2,
+      "difficulty": 6
+    },
+    "image": "/img/Poppy.png",
+    "tags": [
+      "Tank",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Quinn",
+    "info": {
+      "attack": 9,
+      "defense": 4,
+      "magic": 2,
+      "difficulty": 5
+    },
+    "image": "/img/Quinn.png",
+    "tags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Rammus",
+    "info": {
+      "attack": 4,
+      "defense": 10,
+      "magic": 5,
+      "difficulty": 5
+    },
+    "image": "/img/Rammus.png",
+    "tags": [
+      "Tank",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Rek'Sai",
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 2,
+      "difficulty": 3
+    },
+    "image": "/img/RekSai.png",
+    "tags": [
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Renekton",
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 2,
+      "difficulty": 3
+    },
+    "image": "/img/Renekton.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Rengar",
+    "info": {
+      "attack": 7,
+      "defense": 4,
+      "magic": 2,
+      "difficulty": 8
+    },
+    "image": "/img/Rengar.png",
+    "tags": [
+      "Assassin",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Riven",
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 1,
+      "difficulty": 8
+    },
+    "image": "/img/Riven.png",
+    "tags": [
+      "Fighter",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Rumble",
+    "info": {
+      "attack": 3,
+      "defense": 6,
+      "magic": 8,
+      "difficulty": 10
+    },
+    "image": "/img/Rumble.png",
+    "tags": [
+      "Fighter",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Ryze",
+    "info": {
+      "attack": 2,
+      "defense": 2,
+      "magic": 10,
+      "difficulty": 7
+    },
+    "image": "/img/Ryze.png",
+    "tags": [
+      "Mage",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Sejuani",
+    "info": {
+      "attack": 5,
+      "defense": 7,
+      "magic": 6,
+      "difficulty": 4
+    },
+    "image": "/img/Sejuani.png",
+    "tags": [
+      "Tank",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Shaco",
+    "info": {
+      "attack": 8,
+      "defense": 4,
+      "magic": 6,
+      "difficulty": 9
+    },
+    "image": "/img/Shaco.png",
+    "tags": [
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Shen",
+    "info": {
+      "attack": 3,
+      "defense": 9,
+      "magic": 3,
+      "difficulty": 4
+    },
+    "image": "/img/Shen.png",
+    "tags": [
+      "Tank",
+      "Melee"
+    ]
+  },
+  {
+    "name": "Shyvana",
+    "info": {
+      "attack": 8,
+      "defense": 6,
+      "magic": 3,
+      "difficulty": 4
+    },
+    "image": "/img/Shyvana.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Singed",
+    "info": {
+      "attack": 4,
+      "defense": 8,
+      "magic": 7,
+      "difficulty": 5
+    },
+    "image": "/img/Singed.png",
+    "tags": [
+      "Tank",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Sion",
+    "info": {
+      "attack": 5,
+      "defense": 9,
+      "magic": 3,
+      "difficulty": 5
+    },
+    "image": "/img/Sion.png",
+    "tags": [
+      "Tank",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Sivir",
+    "info": {
+      "attack": 9,
+      "defense": 3,
+      "magic": 1,
+      "difficulty": 4
+    },
+    "image": "/img/Sivir.png",
+    "tags": [
+      "Marksman"
+    ]
+  },
+  {
+    "name": "Skarner",
+    "info": {
+      "attack": 7,
+      "defense": 6,
+      "magic": 5,
+      "difficulty": 5
+    },
+    "image": "/img/Skarner.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Sona",
+    "info": {
+      "attack": 5,
+      "defense": 2,
+      "magic": 8,
+      "difficulty": 4
+    },
+    "image": "/img/Sona.png",
+    "tags": [
+      "Support",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Soraka",
+    "info": {
+      "attack": 2,
+      "defense": 5,
+      "magic": 7,
+      "difficulty": 3
+    },
+    "image": "/img/Soraka.png",
+    "tags": [
+      "Support",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Swain",
+    "info": {
+      "attack": 2,
+      "defense": 6,
+      "magic": 9,
+      "difficulty": 8
+    },
+    "image": "/img/Swain.png",
+    "tags": [
+      "Mage",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Syndra",
+    "info": {
+      "attack": 2,
+      "defense": 3,
+      "magic": 9,
+      "difficulty": 8
+    },
+    "image": "/img/Syndra.png",
+    "tags": [
+      "Mage",
+      "Support"
+    ]
+  },
+  {
+    "name": "Tahm Kench",
+    "info": {
+      "attack": 3,
+      "defense": 9,
+      "magic": 6,
+      "difficulty": 5
+    },
+    "image": "/img/TahmKench.png",
+    "tags": [
+      "Support",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Talon",
+    "info": {
+      "attack": 9,
+      "defense": 3,
+      "magic": 1,
+      "difficulty": 7
+    },
+    "image": "/img/Talon.png",
+    "tags": [
+      "Assassin",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Taric",
+    "info": {
+      "attack": 4,
+      "defense": 8,
+      "magic": 5,
+      "difficulty": 5
+    },
+    "image": "/img/Taric.png",
+    "tags": [
+      "Support",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Teemo",
+    "info": {
+      "attack": 5,
+      "defense": 3,
+      "magic": 7,
+      "difficulty": 6
+    },
+    "image": "/img/Teemo.png",
+    "tags": [
+      "Marksman",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Thresh",
+    "info": {
+      "attack": 5,
+      "defense": 6,
+      "magic": 6,
+      "difficulty": 7
+    },
+    "image": "/img/Thresh.png",
+    "tags": [
+      "Support",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Tristana",
+    "info": {
+      "attack": 9,
+      "defense": 3,
+      "magic": 5,
+      "difficulty": 4
+    },
+    "image": "/img/Tristana.png",
+    "tags": [
+      "Marksman",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Trundle",
+    "info": {
+      "attack": 7,
+      "defense": 6,
+      "magic": 2,
+      "difficulty": 5
+    },
+    "image": "/img/Trundle.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Tryndamere",
+    "info": {
+      "attack": 10,
+      "defense": 5,
+      "magic": 2,
+      "difficulty": 5
+    },
+    "image": "/img/Tryndamere.png",
+    "tags": [
+      "Fighter",
+      "Assassin"
+    ]
+  },
+  {
+    "info": {
+      "attack": 6,
+      "defense": 2,
+      "magic": 6,
+      "difficulty": 9
+    },
+    "image": "/img/TwistedFate.png",
+    "tags": [
+      "Mage"
+    ]
+  },
+  {
+    "name": "Twitch",
+    "info": {
+      "attack": 9,
+      "defense": 2,
+      "magic": 3,
+      "difficulty": 6
+    },
+    "image": "/img/Twitch.png",
+    "tags": [
+      "Marksman",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Udyr",
+    "info": {
+      "attack": 8,
+      "defense": 7,
+      "magic": 4,
+      "difficulty": 7
+    },
+    "image": "/img/Udyr.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Urgot",
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 8
+    },
+    "image": "/img/Urgot.png",
+    "tags": [
+      "Marksman",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Varus",
+    "info": {
+      "attack": 7,
+      "defense": 3,
+      "magic": 4,
+      "difficulty": 2
+    },
+    "image": "/img/Varus.png",
+    "tags": [
+      "Marksman",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Vayne",
+    "info": {
+      "attack": 10,
+      "defense": 1,
+      "magic": 1,
+      "difficulty": 8
+    },
+    "image": "/img/Vayne.png",
+    "tags": [
+      "Marksman",
+      "Assassin"
+    ]
+  },
+  {
+    "info": {
+      "attack": 2,
+      "defense": 2,
+      "magic": 10,
+      "difficulty": 7
+    },
+    "image": "/img/Veigar.png",
+    "tags": [
+      "Mage"
+    ]
+  },
+  {
+    "name": "Vel'Koz",
+    "info": {
+      "attack": 2,
+      "defense": 2,
+      "magic": 10,
+      "difficulty": 8
+    },
+    "image": "/img/Velkoz.png",
+    "tags": [
+      "Mage"
+    ]
+  },
+  {
+    "name": "Vi",
+    "info": {
+      "attack": 8,
+      "defense": 5,
+      "magic": 3,
+      "difficulty": 4
+    },
+    "image": "/img/Vi.png",
+    "tags": [
+      "Fighter",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Viktor",
+    "info": {
+      "attack": 2,
+      "defense": 4,
+      "magic": 10,
+      "difficulty": 9
+    },
+    "image": "/img/Viktor.png",
+    "tags": [
+      "Mage"
+    ]
+  },
+  {
+    "name": "Vladimir",
+    "info": {
+      "attack": 2,
+      "defense": 6,
+      "magic": 8,
+      "difficulty": 7
+    },
+    "image": "/img/Vladimir.png",
+    "tags": [
+      "Mage",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Volibear",
+    "info": {
+      "attack": 7,
+      "defense": 7,
+      "magic": 4,
+      "difficulty": 3
+    },
+    "image": "/img/Volibear.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Warwick",
+    "info": {
+      "attack": 7,
+      "defense": 4,
+      "magic": 4,
+      "difficulty": 3
+    },
+    "image": "/img/Warwick.png",
+    "tags": [
+      "Fighter",
+      "Tank"
+    ]
+  },
+  {
+    "name": "Xerath",
+    "info": {
+      "attack": 1,
+      "defense": 3,
+      "magic": 10,
+      "difficulty": 8
+    },
+    "image": "/img/Xerath.png",
+    "tags": [
+      "Mage",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Xin Zhao",
+    "info": {
+      "attack": 8,
+      "defense": 6,
+      "magic": 3,
+      "difficulty": 2
+    },
+    "image": "/img/XinZhao.png",
+    "tags": [
+      "Fighter",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Yasuo",
+    "info": {
+      "attack": 8,
+      "defense": 4,
+      "magic": 4,
+      "difficulty": 10
+    },
+    "image": "/img/Yasuo.png",
+    "tags": [
+      "Fighter",
+      "Assassin"
+    ]
+  },
+  {
+    "name": "Yorick",
+    "info": {
+      "attack": 6,
+      "defense": 6,
+      "magic": 6,
+      "difficulty": 4
+    },
+    "image": "/img/Yorick.png",
+    "tags": [
+      "Fighter",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Zac",
+    "info": {
+      "attack": 3,
+      "defense": 7,
+      "magic": 7,
+      "difficulty": 8
+    },
+    "image": "/img/Zac.png",
+    "tags": [
+      "Tank",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Zed",
+    "info": {
+      "attack": 9,
+      "defense": 2,
+      "magic": 1,
+      "difficulty": 7
+    },
+    "image": "/img/Zed.png",
+    "tags": [
+      "Assassin",
+      "Fighter"
+    ]
+  },
+  {
+    "name": "Ziggs",
+    "info": {
+      "attack": 2,
+      "defense": 4,
+      "magic": 9,
+      "difficulty": 4
+    },
+    "image": "/img/Ziggs.png",
+    "tags": [
+      "Mage"
+    ]
+  },
+  {
+    "name": "Zilean",
+    "info": {
+      "attack": 2,
+      "defense": 5,
+      "magic": 8,
+      "difficulty": 6
+    },
+    "image": "/img/Zilean.png",
+    "tags": [
+      "Support",
+      "Mage"
+    ]
+  },
+  {
+    "name": "Zyra",
+    "info": {
+      "attack": 4,
+      "defense": 3,
+      "magic": 8,
+      "difficulty": 7
+    },
+    "image": "/img/Zyra.png",
+    "tags": [
+      "Mage",
+      "Support"
+    ]
+  }
+]
