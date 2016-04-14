@@ -658,6 +658,7 @@
     ]
   },
   {
+    "name": "Kassadin",
     "info": {
       "attack": 3,
       "defense": 5,
@@ -1461,6 +1462,7 @@
     ]
   },
   {
+    "name": "Twisted Fate",
     "info": {
       "attack": 6,
       "defense": 2,
@@ -1543,6 +1545,7 @@
     ]
   },
   {
+    "name": "Veigar",
     "info": {
       "attack": 2,
       "defense": 2,
