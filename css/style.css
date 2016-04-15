@@ -61,8 +61,11 @@ p {
   cursor: pointer;
 }
 svg path{
-  /*fill="url(#imgpattern)" stroke="black" stroke-width="4"*/
   stroke: #48310F;
   stroke-width: 2px;
 
+}
+.footer p{
+  margin-left: 330px;
+  text-align: left;
 }
