@@ -1,5 +1,3 @@
-// d3.select("h3").on("click", togglePieChart);
-
 var overview = null;
 var champion = null;
 
@@ -21,13 +19,11 @@ function datacall() {
 }
 
 function startup() {
-    var width = 960,
+    var width = 950,
         height = 500,
         radius = Math.min(width, height) / 2;
-
     var color = d3.scale.ordinal()
-        .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c"]);
-
+        .range(["#001133"]); //#5B6174
 
     var pie = d3.layout.pie()
         .value(function(d) {
@@ -39,101 +35,165 @@ function startup() {
         .innerRadius(radius - 100)
         .outerRadius(radius - 10);
 
-    var svg = d3.select("body").append("svg")
+    var svg = d3.select(".container").append("svg")
         .attr("width", width)
         .attr("height", height)
         .append("g")
         .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-    var g = svg.selectAll(".arc")
-        .data(pie(overview));
+    var g = svg.selectAll(".arc");
+    var path = null;
+    var path2 = null;
 
-    g.enter().append("g")
-        .attr("class", "arc");
-
-    g.append("path")
-        .attr("d", arc)
-        .style("fill", function(d) {
-            return color(d.data.class);
-        })
-        .on('mouseover', function(d) {
-            d3.select('.tooltip')
-                .html(d.data.class + "<br />" + d.data.info)
-                .style('opacity', 1);
-            d3.select(this)
-                .style('opacity', 0.3);
-        })
-        .on('mouseout', function(d) {
-            d3.select('.tooltip')
-                .style('opacity', 0);
-            d3.select(this)
-                .style('opacity', 1);
-        })
-        .on("click", function(d) {
-            change(d.data.class);
-            d3.select('.tooltip')
-                .style('opacity', 0);
+    d3.select('.title')
+        .on("click", function() {
+            original();
         });
 
-    g.append("text")
-        .attr("transform", function(d) {
-            return "translate(" + arc.centroid(d) + ")";
-        })
-        .attr("dy", ".35em")
-        .text(function(d) {
+    original();
+
+    function original() {
+        displayTip();
+        if (path2 != null) {
+            path2.remove();
+        }
+        g = g.data(pie(overview), function(d) {
             return d.data.class;
         });
 
+        path = g.enter().append("path")
+            .attr("fill", function(d) {
+                return color(d.data.class);
+            })
+            .on('mouseover', function(d) {
+                displayTip();
+                mouseOver(this, d);
+            })
+            .on('mouseout', function(d) {
+                show(this);
+                displayTip();
+            })
+            .on("click", function(d) {
+                change(d.data.class);
+            });
+        g.exit().remove();
+        g.attr("d", arc);
+
+        putLabel();
+    }
+
     function change(leagueTag) {
+        path.remove();
         pie.value(function(d) {
             return 1;
         });
+
         var specificChampions = specificChamps(champion, leagueTag);
 
         g = g.data(pie(specificChampions), function(d) {
             return d.data.name;
         });
 
-        g.enter().append("path")
+        path2 = g.enter().append("path")
             .attr("fill", function(d) {
                 return color(d.data.name);
             })
             .on('mouseover', function(d) {
-                if (leagueTag == "Fighter") {
-                    d3.select(".tooltip")
-                        .style("left", d3.event.pageX + "px")
-                        .style("top", d3.event.pageY + "px")
-                        .style("opacity", 1)
-                        .html(d.data.name);
-                }
-                d3.select(this)
-                    .style('opacity', 0.3);
+                mouseOver(this, d, leagueTag);
             })
             .on('mouseout', function(d) {
-                d3.select(this)
-                    .style('opacity', 1);
+                show(this);
             })
             .on("click", function(d) {
-                d3.select(".chart1")
-                    .html(d.data.name + '<img src="' + d.data.image +  '" />');
-
+                getOriginal(d);
             });
-
         g.exit().remove();
         g.attr("d", arc);
 
-        if (leagueTag != "Fighter") {
-            g.enter().append("text")
-                .attr("transform", function(d) {
-                    return "translate(" + arc.centroid(d) + ")";
-                })
-                .attr("text-anchor", "middle")
-                .text(function(d) {
-                    return d.data.name;
-                });
+            putLabel(leagueTag);
+    }
+
+    function getOriginal(d) {
+        d3.event.stopPropagation();
+        displayTip("<h3><b>" + d.data.name + "</b></h3>" + '</br><img src="' + d.data.image + '" />');
+        d3.select('.info')
+            .on("click", function() {
+                original();
+            });
+    }
+
+    function mouseOver(current, d, tag) {
+        if (tag == null) {
+            displayTip("<h3>" + d.data.class + "</h3>" + "<br />" + d.data.info);
+        }
+        d3.select(current)
+            .style('opacity', 0.3);
+    }
+
+    function putLabel(tag) {
+        g.enter().append("text")
+            .attr("transform", function(d) {
+              var getAngle = (180 / Math.PI * (d.startAngle + d.endAngle) / 2 - 90);
+                if (d.data.name == null || ((tag != "Fighter") && (tag != "Mage"))) {
+                var getAngle = 0;
+              }
+                return "translate(" + arc.centroid(d) + ") " +
+                                    "rotate(" + getAngle + ")";
+            })
+            .attr("text-anchor", "middle")
+            .attr("fill", "#D2B14C")
+            .text(function(d) {
+                if (d.data.name == null) {
+                    return d.data.class;
+                }
+                return d.data.name;
+            })
+            .on('mouseover', function(d) {
+                if (d.data.name == null) {
+                    displayTip();
+                    mouseOver(this, d);
+                } else {
+                    mouseOver(this, d, tag);
+                }
+            })
+            .on('mouseout', function(d) {
+                if (d.data.name == null) {
+                    displayTip();
+                }
+                show(this);
+            })
+            .on("click", function(d) {
+                if (d.data.class != null) {
+                    change(d.data.class);
+                }
+                else{
+                  getOriginal(d);
+                }
+            });
+    }
+
+    function displayTip(description) {
+        var displayinfo = "</br></br>Before beginnning your fight, pick your role and your champion.";
+        if (description != null) {
+            displayinfo = description;
         }
 
+        d3.select('.info')
+            .style("left", width / 2 + 90 + "px")
+            .style("top", height / 2 + 215 + "px")
+            .html(displayinfo);
     }
+
+    function show(current) {
+        d3.select(current)
+            .style('opacity', 1);
+    }
+
+    function hide(current) {
+        d3.select(current)
+            .style('opacity', 0);
+    }
+
 }
 
 function contains(tags, certainTag) {

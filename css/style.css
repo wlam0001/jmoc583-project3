@@ -1,11 +1,68 @@
+body{
+    background-image: url("/img/background.jpg");
+    background-size: 100%;
+    background-origin: content-box;
+}
+.container{
+      padding-top:80px;
+}
 .tooltip {
     position: absolute;
-    background: black;
-    color: #fff;
+    color: #D2B14C;
     text-align: center;
     padding: 10px 20px;
     border-radius: 3px;
 }
-text{
-  font-size: 12px;
+.info {
+    position: absolute;
+    background: black;
+    color: #D2B14C;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 3px;
+    width: 176px;
+    height: 176px;
+    font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+body {
+    background-color: black;
+}
+svg {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.title {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 30%;
+    cursor: pointer;
+}
+h2, p {
+    text-align: center;
+    color: #D2B14C;
+    font-family: "Adobe Garamond Pro", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}
+h3 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-shadow:
+      -1px -1px 0 #48310F,
+      1px -1px 0 #48310F,
+      -1px 1px 0 #48310F,
+      1px 1px 0 #48310F;
+}
+
+p {
+    font-size: 14px;
+}
+.info > img{
+  cursor: pointer;
+}
+svg path{
+  /*fill="url(#imgpattern)" stroke="black" stroke-width="4"*/
+  stroke: #48310F;
+  stroke-width: 2px;
+
 }
